@@ -1,7 +1,7 @@
 const getJSON = require('fetch-json-data')
 const path = require('path')
 require('dotenv').config({
-    path: path.resolve(__dirname, './.env')
+    path: path.resolve(__dirname, '../.env')
 })
 const noti_bot = require('noti_bot')
 const notifySlack = noti_bot.slack
