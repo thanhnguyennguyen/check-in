@@ -7,3 +7,6 @@ The script is a simple scenario. You should implement more logic to make sure it
 
 ### Sample notification
 ![image](https://user-images.githubusercontent.com/17243442/96009204-97bcff00-0e6a-11eb-9773-a12ea525f09e.png)
+
+
+[Full list of lazy tools](https://github.com/thanhnguyennguyen/lazy/#list-of-tools)
