@@ -23,6 +23,6 @@
   "dependencies": {
     "dotenv": "^8.2.0",
     "fetch-json-data": "^1.0.4",
-    "noti_bot": "^1.0.1"
+    "noti_bot": "^1.0.3"
   }
 }
