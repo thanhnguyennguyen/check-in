@@ -4,5 +4,5 @@ const noti_bot = require('noti_bot')
 //const notifyTelegram = noti_bot.telegram
 const notifySlack = noti_bot.slack
 
-let msg = `${process.env.PREFIX} It's time for the afternoon check-in`
+let msg = `${process.env.PREFIX} \nIt's time for the afternoon check-in`
 notifySlack(msg, process.env.SLACK_HOOK_KEY, process.env.SLACK_CHANNEL, process.env.SLACK_BOTNAME, process.env.SLACK_BOT_ICON)

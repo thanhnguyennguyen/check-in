@@ -8,7 +8,7 @@ const axios = require('axios').default
 let msg = {
 	"channel" : process.env.SLACK_CHANNEL,
 	"username":  process.env.SLACK_BOTNAME,
-	"blocks" : [{"type":"section","text":{"type":"mrkdwn","text":` ${process.env.PREFIX}  It's check-out time. Pls fill up <https://docs.google.com/forms/d/e/1FAIpQLSdBY1y5v1GB6VIrotj-L9GDnKEfCcYBl4-Z8xDJEfCNN7wDxw/viewform|End of Day report>`}}],
+	"blocks" : [{"type":"section","text":{"type":"mrkdwn","text":` ${process.env.PREFIX} \n It's check-out time. Pls fill up <https://docs.google.com/forms/d/e/1FAIpQLSdBY1y5v1GB6VIrotj-L9GDnKEfCcYBl4-Z8xDJEfCNN7wDxw/viewform|End of Day report>`}}],
 	"icon_emoji": process.env.SLACK_BOT_ICON,
 	
 }
